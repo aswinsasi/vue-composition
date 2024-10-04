@@ -5,15 +5,21 @@
  <DemoThreeToRef/>
  <Method/>
  <VModel/>
+ <Computed/>
+ <Watch/>
+ <ProvideInject/>
 </template>
 
 <script>
+import Computed from './components/Computed.vue';
 import DataComponent from './components/Data.vue';
 import DemoOne from './components/DemoOne.vue';
 import DemoThreeToRef from './components/DemoThreeToRef.vue';
 import DemoTwo from './components/DemoTwo.vue';
 import Method from './components/Method.vue';
+import ProvideInject from './components/ProvideInject.vue';
 import VModel from './components/VModel.vue';
+import Watch from './components/Watch.vue';
 
 export default {
   name: 'App',
@@ -23,7 +29,10 @@ export default {
     DemoTwo,
     DemoThreeToRef,
     Method,
-    VModel
+    VModel,
+    Computed,
+    Watch,
+    ProvideInject
   }
 }
 </script>
